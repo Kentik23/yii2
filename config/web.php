@@ -9,6 +9,7 @@ $config = [
     'bootstrap' => ['log'],
     'layout' => 'blog',
     'name' => 'classic',
+    'language' => 'ru',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
