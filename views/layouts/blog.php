@@ -16,6 +16,7 @@ $this->registerMetaTag(['name' => 'viewport', 'content' => 'width=device-width, 
 <html lang="<?= Yii::$app->language ?>">
 
 <head>
+    <base href="/">
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
