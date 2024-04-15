@@ -51,7 +51,7 @@ $this->title = Yii::$app->name;
                                 </span>
                             </h4>
                             <?= $post -> excerpt ?>
-                            <h4><span><?= $post -> created_at ?></span></h4>
+                            <h4><span><?= Yii::$app -> formatter -> asDate($post -> created_at, 'php:d.m.Y') ?></span></h4>
                         </div>
                     </div>
                     <?php endforeach; ?>
