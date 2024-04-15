@@ -128,7 +128,6 @@ class SiteController extends Controller
 
     public function actionTest()
     {
-        echo 'Test page';
-        die();
+        return $this->render('test');
     }
 }
