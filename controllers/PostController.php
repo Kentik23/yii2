@@ -2,12 +2,14 @@
 
 namespace app\controllers;
 
+use app\models\Post;
 use yii\web\Controller;
 
 class PostController extends Controller
 {
     public function actionIndex()
     {
-        return $this->render('index');
+        $posts = Post::find()->all();
+        return $this->render('index', ['posts' => $posts]);
     }
 }

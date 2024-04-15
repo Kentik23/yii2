@@ -1,9 +1,12 @@
 <?php
 
 /** @var yii\web\View $this */
+/** @var $posts */
 
 $this->title = Yii::$app->name;
 ?>
+
+<?php var_dump($posts); ?>
 
     <section class="bg-text-area">
         <div class="container">
@@ -139,4 +142,3 @@ $this->title = Yii::$app->name;
             </div>
         </div>
     </section>
-<?php
