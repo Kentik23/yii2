@@ -16,7 +16,7 @@ class m240417_095936_create_post_table extends Migration
             'id' => $this->primaryKey(10)->unsigned(),
             'category_id' => $this->integer(10)->unsigned()->notNull(),
             'title' => $this->string()->notNull(),
-            'except' => $this->string()->notNull(),
+            'excerpt' => $this->string()->notNull(),
             'content' => $this->text()->notNull(),
             'img' => $this->string(),
             'created_at' => $this->dateTime()->notNull(),
