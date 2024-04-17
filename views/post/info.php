@@ -18,6 +18,12 @@ $this->title = Yii::$app->name;
                         </div>
                         <div class="big-text">
                             <h3><?= $post -> title?></h3>
+                            <h4><span>Category:
+                                    <span class="author-name">
+                                        <?= $post -> category -> title?>
+                                    </span>
+                                </span>
+                            </h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             <h4><span class="date">25 February 2017</span><span class="author">Posted By: <span class="author-name">Kabbo Liate</span></span>
